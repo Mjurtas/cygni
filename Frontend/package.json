@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack",
     "test": "npx cypress open"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/preset-env": "^7.16.11",
-    "cypress": "^9.4.1"
+    "cypress": "^9.4.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
   },
   "dependencies": {}
 }

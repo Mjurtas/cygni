@@ -74,6 +74,7 @@ const addObservers = () => {
   image.forEach((img) => {
     imageObserver.observe(img);
   });
+
   scrollObserver.observe(scrollSensor);
 };
 
@@ -81,21 +82,18 @@ const addObservers = () => {
  * Async call to Flickr API to getimages according to tags.
  */
 const getImages = async () => {
-  const galleryContainer = document.querySelector(".container");
+  const galleryContainer = document.querySelector(".gallery__image__container");
   const scrollSensor = document.querySelector(".scroll__sensor");
   scrollSensor.classList.toggle("show");
 
   await fetch(
-    `http://localhost:3000/` +
-      new URLSearchParams({
-        tags: tags.length > 0 ? encodeURI(tags.join(",")) : "*",
-        page: PAGE_NUMBER,
-      }).toString()
+    `http://localhost:3000/${
+      tags.length > 0 ? encodeURI(tags.join(",")) : "*"
+    }&${PAGE_NUMBER}`
   )
     .then((response) => {
       if (!response.ok) {
-        showError(response);
-        throw new Error("HTTP error " + response.status);
+        throw new Error(response.status);
       }
       return response.json();
     })
@@ -107,7 +105,8 @@ const getImages = async () => {
       addObservers();
     })
     .catch((err) => {
-      console.log(err);
+      showError(err);
+      return;
     });
 };
 
@@ -130,8 +129,9 @@ const renderSearchTags = () => {
 
 //Empties the gallery and refetches the images.
 const resetGallery = () => {
-  const galleryContainer = document.querySelector(".container");
+  const galleryContainer = document.querySelector(".gallery__image__container");
   galleryContainer.innerHTML = "";
+  PAGE_NUMBER = 1;
   getImages();
   renderSearchTags();
 };
@@ -140,15 +140,12 @@ const resetGallery = () => {
  * @param {Response} response
  */
 const showError = (response) => {
-  const galleryContainer = document.querySelector(".container");
+  const galleryContainer = document.querySelector(".gallery__image__container");
   galleryContainer.innerHTML = "";
 
   const error = createError(response);
-
   galleryContainer.appendChild(error);
 };
-
-
 
 const handleOnLoad = () => {
   PAGE_NUMBER = 1;
@@ -162,7 +159,7 @@ const handleOnLoad = () => {
 /**
  * Sets up all required eventlisteners
  */
- const setupEventListeners = () => {
+const setupEventListeners = () => {
   document.addEventListener("load", handleOnLoad());
 };
 setupEventListeners();
