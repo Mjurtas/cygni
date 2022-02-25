@@ -4,7 +4,7 @@ const createSearchTag = (tag, index, onDelete) => {
   const title = document.createElement("p");
 
   deleteIcon.className = "bi bi-x";
-  searchTag.className = "button__basic search__tag";
+  searchTag.className = "button__basic base__tag search__tag";
   title.textContent += tag.replace("_", " ");
 
   searchTag.appendChild(title);
@@ -27,7 +27,7 @@ const createAddTag = (onSubmit) => {
   input.className = "add__new__tag__input";
 
   tagIcon.className = "bi bi-tag";
-  addNewTag.className = "button__basic search__tag add__new__tag";
+  addNewTag.className = "button__basic base__tag add__new__tag";
   addNewTag.appendChild(tagIcon);
   addNewTag.appendChild(input);
   input.addEventListener(
@@ -50,7 +50,7 @@ const createClearCacheTag = (onSubmit) => {
   const text = document.createTextNode("Clear Cache");
 
   tagIcon.className = "bi bi-x";
-  clearCacheTag.className = "button__basic search__tag add__new__tag clear__cache__tag";
+  clearCacheTag.className = "button__basic base__tag add__new__tag clear__cache__tag";
   clearCacheTag.appendChild(tagIcon);
   clearCacheTag.appendChild(text);
 
