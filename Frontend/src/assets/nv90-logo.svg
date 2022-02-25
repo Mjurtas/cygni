@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="67" viewBox="0 0 60 67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+        clip-path: url(#clip-path);
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #000735;
+      }
+
+      .cls-3 {
+        opacity: 0.85;
+      }
+
+      .cls-4 {
+        opacity: 0.75;
+      }
+
+      .cls-6 {
+        opacity: 0.67;
+      }
+
+      .cls-7 {
+        opacity: 0.6;
+      }
+
+      .cls-8 {
+        opacity: 0.19;
+      }
+
+      .cls-9 {
+        opacity: 0.51;
+      }
+
+      .cls-10 {
+        opacity: 0.39;
+      }
+
+      .cls-11 {
+        font-size: 64px;
+        font-family: Corbel-Bold, Corbel;
+        font-weight: 700;
+      }
+
+      .cls-12 {
+        font-size: 32px;
+        font-family: Lato-Hairline, Lato Hairline;
+        font-weight: 100;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="3" y="30" width="60" height="67"/>
+    </clipPath>
+  </defs>
+  <g id="Group_16" data-name="Group 16" transform="translate(-76 -53)">
+    <g id="Scroll_Group_5" data-name="Scroll Group 5" class="cls-2" transform="translate(73 23)">
+      <g id="Group_11" data-name="Group 11" transform="translate(-222 -63)">
+        <g id="Group_8" data-name="Group 8" transform="translate(266.751 134.311)">
+          <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-3" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 5.251) rotate(90)"/>
+          <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-4" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 7.876) rotate(90)"/>
+          <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-5" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 2.625) rotate(90)"/>
+          <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-5" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75) rotate(90)"/>
+          <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-6" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 10.501) rotate(90)"/>
+          <circle id="Ellipse_1-2" data-name="Ellipse 1" class="cls-7" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 13.127) rotate(90)"/>
+          <circle id="Ellipse_4-2" data-name="Ellipse 4" class="cls-8" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 21.003) rotate(90)"/>
+          <circle id="Ellipse_1-3" data-name="Ellipse 1" class="cls-9" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 15.752) rotate(90)"/>
+          <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-10" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 18.377) rotate(90)"/>
+        </g>
+        <g id="Group_9" data-name="Group 9" transform="translate(269.25 134.311)">
+          <circle id="Ellipse_2-2" data-name="Ellipse 2" class="cls-3" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 5.251) rotate(90)"/>
+          <circle id="Ellipse_3-2" data-name="Ellipse 3" class="cls-4" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 7.876) rotate(90)"/>
+          <circle id="Ellipse_1-4" data-name="Ellipse 1" class="cls-5" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 2.625) rotate(90)"/>
+          <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-5" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75) rotate(90)"/>
+          <circle id="Ellipse_4-3" data-name="Ellipse 4" class="cls-6" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 10.501) rotate(90)"/>
+          <circle id="Ellipse_1-5" data-name="Ellipse 1" class="cls-7" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 13.127) rotate(90)"/>
+          <circle id="Ellipse_4-4" data-name="Ellipse 4" class="cls-8" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 21.003) rotate(90)"/>
+          <circle id="Ellipse_1-6" data-name="Ellipse 1" class="cls-9" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 15.752) rotate(90)"/>
+          <circle id="Ellipse_5-2" data-name="Ellipse 5" class="cls-10" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 18.377) rotate(90)"/>
+        </g>
+        <g id="Group_10" data-name="Group 10" transform="translate(271.75 134.311)">
+          <circle id="Ellipse_2-3" data-name="Ellipse 2" class="cls-3" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 5.251) rotate(90)"/>
+          <circle id="Ellipse_3-3" data-name="Ellipse 3" class="cls-4" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 7.876) rotate(90)"/>
+          <circle id="Ellipse_1-7" data-name="Ellipse 1" class="cls-5" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 2.625) rotate(90)"/>
+          <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-5" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75) rotate(90)"/>
+          <circle id="Ellipse_4-5" data-name="Ellipse 4" class="cls-6" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 10.501) rotate(90)"/>
+          <circle id="Ellipse_1-8" data-name="Ellipse 1" class="cls-7" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 13.127) rotate(90)"/>
+          <circle id="Ellipse_4-6" data-name="Ellipse 4" class="cls-8" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 21.003) rotate(90)"/>
+          <circle id="Ellipse_1-9" data-name="Ellipse 1" class="cls-9" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 15.752) rotate(90)"/>
+          <circle id="Ellipse_5-3" data-name="Ellipse 5" class="cls-10" cx="0.875" cy="0.875" r="0.875" transform="translate(1.75 18.377) rotate(90)"/>
+        </g>
+        <text id="n" class="cls-11" transform="translate(222 68)"><tspan x="0" y="61">n</tspan></text>
+        <text id="v" class="cls-11" transform="translate(254 68)"><tspan x="0" y="61">v</tspan></text>
+        <text id="_90" data-name="90" class="cls-12" transform="translate(222 125)"><tspan x="0" y="32">90</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

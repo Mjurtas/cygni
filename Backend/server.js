@@ -3,6 +3,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv"
+import gallery from "./Routes/gallery.js"
 
 // Sets path for config-file.
 dotenv.config({
@@ -20,9 +21,6 @@ app.use(
   }))
 //Enables cors https://expressjs.com/en/resources/middleware/cors.html
 app.use(cors())
-
-// Routes
-import gallery from "../Backend/Routes/gallery.js"
 
 // Define the port the server will accept connections on
 const port = process.env.PORT || 3000

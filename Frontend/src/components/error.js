@@ -1,4 +1,7 @@
-const createError = (response) => {
+const createError = (err) => {
+  const scrollSensor = document.querySelector(".scroll__sensor");
+  scrollSensor.classList.remove("show"); // Hide scrollsensor if error;
+
   const errorContainer = document.createElement("div");
   const header = document.createElement("h1");
   const msg = document.createElement("h6");
@@ -10,9 +13,7 @@ const createError = (response) => {
 
   msg.className = "error__message";
 
-  msg.textContent = `An error of ${
-    response && response.status ? response.status : "with an unknown code"
-  } was thrown`;
+  msg.textContent = err.message;
 
   errorContainer.appendChild(header);
   errorContainer.appendChild(msg);

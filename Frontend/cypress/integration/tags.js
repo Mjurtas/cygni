@@ -1,5 +1,5 @@
 before(() => {
-  cy.visit("/");
+  cy.visit("http://localhost:8080/");
 });
 
 const tagString = "cat";

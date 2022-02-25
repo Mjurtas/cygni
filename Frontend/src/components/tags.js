@@ -10,7 +10,7 @@ const createSearchTag = (tag, index, onDelete) => {
   searchTag.appendChild(title);
   searchTag.appendChild(deleteIcon);
 
-  searchTag.addEventListener("click", (event) => {
+  searchTag.addEventListener("click", () => {
     searchTag.style.display = "none";
     onDelete(index);
   });
@@ -44,4 +44,21 @@ const createAddTag = (onSubmit) => {
   return addNewTag;
 };
 
-export { createSearchTag, createAddTag };
+const createClearCacheTag = (onSubmit) => {
+  const clearCacheTag = document.createElement("div");
+  const tagIcon = document.createElement("i");
+  const text = document.createTextNode("Clear Cache");
+
+  tagIcon.className = "bi bi-x";
+  clearCacheTag.className = "button__basic search__tag add__new__tag clear__cache__tag";
+  clearCacheTag.appendChild(tagIcon);
+  clearCacheTag.appendChild(text);
+
+  clearCacheTag.addEventListener("click", () => {
+    onSubmit();
+  });
+
+  return clearCacheTag;
+};
+
+export { createSearchTag, createAddTag, createClearCacheTag };
